@@ -19,9 +19,9 @@ Structure is the same as training set
 activity_labels.txt - contains description labels for the activity data.
 features.txt - contains variable names of the measurement variable.
 features_info.txt - contains descriptions of the variables.
-----
-run.analysis.R do the following 
 
+run.analysis.R do the following 
+----
 1.Read in training & testing test, combine them into a full dataset.
 2.Read in descriptive variable names from features.txt and add the variable names to the full dataset.
 3.Subset meansurements on the mean and standard deivation for each measurement.
